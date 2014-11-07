@@ -22,7 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+        <activity
+            android:name=".CurListActivity" >
+        </activity>
+        <activity
+            android:name=".InventoryView" >
+        </activity>
         <provider
             android:name=".contentprovider.NinjaContent"
             android:authorities="com.example.ninjaapp.contentprovider" >
